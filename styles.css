@@ -1,0 +1,38 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+table {
+    align-content: center;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    border: 3px solid black ; 
+    border-bottom: 7px solid black;
+    border-right: 7px solid black;
+    border-left: 7px solid grey;
+    border-top: 7px solid grey;
+    border-style: groove;
+}
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+}
+td{
+    padding:20px;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+td[rowspan] {
+    vertical-align: middle;
+}
+#lunch{
+    font-weight:bold;
+}
